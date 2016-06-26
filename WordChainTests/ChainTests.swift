@@ -35,6 +35,15 @@ class ChainTests: QuickSpec {
                     expect(result[1]).to(equal("I"))
                 }
             }
+            
+            describe("with 2 letters") {
+                it("should be able to go chain the same word in 1 step") {
+                    let result = subject.wordChain(withStartingWord: "AM", withEndingWord: "AM")
+                    expect(result.count).to(equal(2))
+                    expect(result[0]).to(equal("AM"))
+                    expect(result[1]).to(equal("AM"))
+                }
+            }
         }
     }
 }
