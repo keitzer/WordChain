@@ -10,4 +10,7 @@ import Foundation
 
 class Chain: NSObject {
     
+    func wordChain(withStartingWord startingWord: String, withEndingWord endingWord: String) -> [String]  {
+        return []
+    }
 }
