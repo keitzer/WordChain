@@ -13,6 +13,8 @@
 		2A33CD481D201983000FA6B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A33CD471D201983000FA6B8 /* Assets.xcassets */; };
 		2A33CD4B1D201983000FA6B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A33CD491D201983000FA6B8 /* LaunchScreen.storyboard */; };
 		2A33CD561D201983000FA6B8 /* WordChainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A33CD551D201983000FA6B8 /* WordChainTests.swift */; };
+		2A33CD611D2019A0000FA6B8 /* ChainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A33CD601D2019A0000FA6B8 /* ChainTests.swift */; };
+		2A33CD631D2019A8000FA6B8 /* Chain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A33CD621D2019A8000FA6B8 /* Chain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		2A33CD511D201983000FA6B8 /* WordChainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordChainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A33CD551D201983000FA6B8 /* WordChainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordChainTests.swift; sourceTree = "<group>"; };
 		2A33CD571D201983000FA6B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A33CD601D2019A0000FA6B8 /* ChainTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainTests.swift; sourceTree = "<group>"; };
+		2A33CD621D2019A8000FA6B8 /* Chain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 			children = (
 				2A33CD401D201983000FA6B8 /* AppDelegate.swift */,
 				2A33CD421D201983000FA6B8 /* ViewController.swift */,
+				2A33CD621D2019A8000FA6B8 /* Chain.swift */,
 				2A33CD441D201983000FA6B8 /* Main.storyboard */,
 				2A33CD471D201983000FA6B8 /* Assets.xcassets */,
 				2A33CD491D201983000FA6B8 /* LaunchScreen.storyboard */,
@@ -91,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				2A33CD551D201983000FA6B8 /* WordChainTests.swift */,
+				2A33CD601D2019A0000FA6B8 /* ChainTests.swift */,
 				2A33CD571D201983000FA6B8 /* Info.plist */,
 			);
 			path = WordChainTests;
@@ -197,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A33CD631D2019A8000FA6B8 /* Chain.swift in Sources */,
 				2A33CD431D201983000FA6B8 /* ViewController.swift in Sources */,
 				2A33CD411D201983000FA6B8 /* AppDelegate.swift in Sources */,
 			);
@@ -207,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A33CD561D201983000FA6B8 /* WordChainTests.swift in Sources */,
+				2A33CD611D2019A0000FA6B8 /* ChainTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
