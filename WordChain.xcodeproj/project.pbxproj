@@ -14,6 +14,7 @@
 		2A33CD4B1D201983000FA6B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A33CD491D201983000FA6B8 /* LaunchScreen.storyboard */; };
 		2A33CD611D2019A0000FA6B8 /* ChainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A33CD601D2019A0000FA6B8 /* ChainTests.swift */; };
 		2A33CD631D2019A8000FA6B8 /* Chain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A33CD621D2019A8000FA6B8 /* Chain.swift */; };
+		2A33CD651D202C32000FA6B8 /* Dictionary+KeyPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A33CD641D202C32000FA6B8 /* Dictionary+KeyPaths.swift */; };
 		AF4B7B84BCE69E04592F194C /* Pods_WordChainTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 518B657A4B35EFA2923A3AEB /* Pods_WordChainTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		2A33CD571D201983000FA6B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A33CD601D2019A0000FA6B8 /* ChainTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainTests.swift; sourceTree = "<group>"; };
 		2A33CD621D2019A8000FA6B8 /* Chain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chain.swift; sourceTree = "<group>"; };
+		2A33CD641D202C32000FA6B8 /* Dictionary+KeyPaths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+KeyPaths.swift"; sourceTree = "<group>"; };
 		518B657A4B35EFA2923A3AEB /* Pods_WordChainTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WordChainTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B636AC70A2F907B356E6D7FF /* Pods-WordChainTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WordChainTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WordChainTests/Pods-WordChainTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +90,7 @@
 			children = (
 				2A33CD401D201983000FA6B8 /* AppDelegate.swift */,
 				2A33CD421D201983000FA6B8 /* ViewController.swift */,
+				2A33CD641D202C32000FA6B8 /* Dictionary+KeyPaths.swift */,
 				2A33CD621D2019A8000FA6B8 /* Chain.swift */,
 				2A33CD441D201983000FA6B8 /* Main.storyboard */,
 				2A33CD471D201983000FA6B8 /* Assets.xcassets */,
@@ -277,6 +280,7 @@
 			files = (
 				2A33CD631D2019A8000FA6B8 /* Chain.swift in Sources */,
 				2A33CD431D201983000FA6B8 /* ViewController.swift in Sources */,
+				2A33CD651D202C32000FA6B8 /* Dictionary+KeyPaths.swift in Sources */,
 				2A33CD411D201983000FA6B8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

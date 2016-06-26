@@ -16,8 +16,15 @@ class ChainTests: QuickSpec {
         var subject: Chain!
         
         describe("Chain") {
-            beforeEach {
+            beforeSuite {
                 subject = Chain()
+                subject.addListToTree()
+                
+                expect(subject.isValidWord("am")).to(beTrue())
+                expect(subject.isValidWord("ask")).to(beTrue())
+                expect(subject.isValidWord("as")).to(beTrue())
+                expect(subject.isValidWord("at")).to(beTrue())
+                expect(subject.isValidWord("ap")).to(beFalse())
             }
             
             describe("with 1 letter") {
